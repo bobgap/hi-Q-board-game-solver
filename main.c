@@ -26,11 +26,11 @@ int  	level = -1,   /*level is the pointer to the current move (moves[level])*/
   0 is a hole without a peg*/
 		board[7][7]={ 
 			{2,2,1,1,1,2,2},
-			{2,1,1,1,1,1,2},
+			{2,2,1,1,1,2,2},
 			{1,1,1,1,1,1,1},
-			{1,1,1,0,1,1,1},  /*top end --->*/
+			{1,1,1,0,1,1,1},  /*top end, though is symmetrical, the top is where checking starts --->*/
 			{1,1,1,1,1,1,1},
-			{2,1,1,1,1,1,2},
+			{2,2,1,1,1,2,2},
 			{2,2,1,1,1,2,2}
 			};
 unsigned long totalcount = 0;
